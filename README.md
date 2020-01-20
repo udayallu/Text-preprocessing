@@ -17,6 +17,11 @@ Output:
 
 ```
 import re
-twitter_username_re = re.compile(r'@([A-Za-z0-9_]+)')```
+twitter_username_re = re.compile(r'@([A-Za-z0-9_]+)')
 
+```
+##### Special Characters in string literals
+```
+from string import punctuation
+set(punctuation)
 ```
